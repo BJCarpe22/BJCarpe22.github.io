@@ -14,6 +14,7 @@ body{
 
 html{
   scroll-behavior: smooth;
+  scroll-padding-top: 60px;
 
 }
 
@@ -33,6 +34,10 @@ nav, .nav-links{
 }
 
 nav {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: white;
   justify-content: space-around;
   align-items: center;
   height: 17vh;
